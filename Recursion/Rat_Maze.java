@@ -52,7 +52,7 @@ public class Rat_Maze {
 
     public static void main(String[] args) {
         int n = 4;
-        int[][] a = { { 1, 0, 0, 0 }, { 1, 1, 0, 1 }, { 1, 1, 0, 0 }, { 0, 1, 1, 1 } };
+        int[][] a = { { 1, 0, 1, 0 }, { 1, 1, 0, 1 }, { 1, 1, 0, 0 }, { 0, 1, 1, 1 } };
 
         ArrayList<String> result = findPath(a, n);
         if (result.size() > 0) {
