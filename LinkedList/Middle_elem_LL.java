@@ -15,14 +15,14 @@ class Node {
 
 public class Middle_elem_LL {
     public static Node middleEle(Node head) {
-        Node Slow = head;
-        Node Fast = head;
+        Node slow = head;
+        Node fast = head;
 
-        while (Slow != null && Fast != null && Fast.next != null) {
-            Fast = Fast.next.next;
-            Slow = Slow.next;
+        while (slow != null && fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
-        return Slow;
+        return slow;
     }
 
     public static void main(String[] args) {
