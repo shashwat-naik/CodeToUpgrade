@@ -15,8 +15,8 @@ class Node {
 
 public class Merge_SortedLL {
     public static Node mergeLL(Node list1, Node list2) {
-        Node storeLL = new Node(-1);
-        Node temp = storeLL;
+        Node StoreLL = new Node(-1);
+        Node temp = StoreLL;
 
         while (list1 != null && list2 != null) {
             if (list1.data <= list2.data) {
@@ -34,7 +34,7 @@ public class Merge_SortedLL {
         else
             temp.next = list2;
 
-        return storeLL.next;
+        return StoreLL.next;
     }
 
     public static void printLinkedList(Node head) {
