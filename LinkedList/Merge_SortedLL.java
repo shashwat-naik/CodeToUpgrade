@@ -61,9 +61,9 @@ public class Merge_SortedLL {
         System.out.print("Second sorted linked list: ");
         printLinkedList(list2);
 
-        Node mergedList = mergeLL(list1, list2);
+        Node mergeList = mergeLL(list1, list2);
 
         System.out.print("Merged sorted linked list: ");
-        printLinkedList(mergedList);
+        printLinkedList(mergeList);
     }
 }
